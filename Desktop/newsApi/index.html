@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>News Api Project</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="display-5 text-uppercase">Latest News</h1>
+            </div>
+            <div class="col-md-4">
+                <h1 class="display-5 text-uppercase" id="time">Time</h1>
+            </div>
+        </div>
+      
+    
+      <div class="row">
+        <div class="col-md-3" id="leftBlock">
+            <div class="newsh1">TOP SPORTS HEADLINES FROM INDIA</div>
+            <div id="left"></div>
+        </div>
+        <div class="col-md-6" id="middleBlock">
+            <div class="newsh1">
+                <h1>Search Weather</h1>
+                <div class="container">
+                    <div class="weatherClass">
+                        <input type="search" id="search" class="form-control mt-4" 
+                        placeholder="search city name" />
+                    </div>
+                </div>
+                <div id="template"></div>
+                <div id="middle"></div>
+            </div>
+        </div>
+        <div class="col-md-3" id="rightBlock">
+            <div class="newsh1">
+                Top entertainment headlines from India
+            </div>
+            <div id="right"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./weather.js"></script>
+  </body>
+</html>

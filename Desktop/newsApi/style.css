@@ -1,0 +1,95 @@
+body {
+    background: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+h1.display-5 {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 7px;
+    background: #fff;
+}
+
+
+#left,
+#right {
+    background: #fff;
+    margin: 10px 0px;
+    border-right: 2px solid red;
+    padding: 10px;
+}
+
+.newsh1 {
+    color: red;
+    text-shadow: 1px 1px 1px #111;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.h1Title {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 13px 0px;
+}
+
+#right {
+    border-left: 2px solid red !important;
+    border-right: none !important;
+}
+
+/* weather css */
+.card-body1 {
+    position: relative;
+}
+
+.card-body1 img {
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: transparent;
+}
+
+#middleBlock {
+    background: #fff;
+}
+
+#middleBlock .newsh1 {
+    border-bottom: none;
+}
+
+#template {
+    background: skyblue;
+    color: #fff;
+    padding: 10px;
+    height: 170px;
+    margin: 18px;
+}
+
+a {
+    color: #111;
+}
+
+a:hover {
+    color: #999;
+    text-decoration: underline;
+}
